@@ -113,45 +113,6 @@
         margin: 0.7em 0;
         font-size: 1.07em;
     }
-    /* Logo: hilangkan background putih */
-    .header-logo img {
-        border-radius: 10px;
-        box-shadow: 0 2px 10px #d6131322;
-        width: 80px;
-        height: 80px;
-        object-fit: contain;
-        margin-bottom: 10px;
-        border: 2px solid #d61313;
-        background: transparent !important;
-    }
-    /* Pagination styles */
-    .pagination {
-        margin: 2rem auto 1.5rem auto;
-        text-align: center;
-    }
-    .pagination .page {
-        display: inline-block;
-        padding: 8px 18px;
-        margin: 0 3px;
-        background: #fff;
-        color: #d61313;
-        font-weight: bold;
-        font-size: 1.05rem;
-        border-radius: 7px;
-        border: 2px solid #d61313;
-        text-decoration: none;
-        transition: background .2s, color .2s;
-    }
-    .pagination .page:hover {
-        background: #d61313;
-        color: #fff;
-    }
-    .pagination .current {
-        background: #d61313;
-        color: #fff;
-        border: 2px solid #d61313;
-        font-weight: bolder;
-    }
     </style>
 </head>
 <body>
@@ -161,6 +122,9 @@
         </div>
         <h1>Dokumentasi 17 Agustus 2025</h1>
         <p>Galeri Foto Kegiatan HUT RI ke-80<br><span class="subtitle">RSUD TANJUNG PURA</span></p>
+        <div class="header-btn">
+            <span>RSUD TANJUNG PURA</span>
+        </div>
     </header>
     <main>
         <section class="gallery">
